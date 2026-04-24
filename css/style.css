@@ -1,0 +1,40 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(253, 101, 0);
+  color: #6d0202;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #6d0202;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(247, 81, 5);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #030303;
+}
+
+footer {
+  background-color: #6d0202;
+  color: rgb(255, 74, 3);
+  text-align: center;
+  padding: 15px;
+}
