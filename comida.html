@@ -1,124 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu SITE</title>
+    <title>Comidas</title>
 
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: cursive;
         margin: 0;
-        background-color: #f4f4f4;
       }
 
       header {
-        background-color: #ff6600;
-        color: white;
+        background: rgb(253, 101, 0);
+        color: #6d0202;
         text-align: center;
-        padding: 20px;
+        padding: 15px;
       }
 
       nav {
-        background-color: #333;
+        background: #6d0202;
         padding: 10px;
         text-align: center;
       }
 
       nav a {
-        color: white;
+        color: rgb(247, 81, 5);
         text-decoration: none;
+        margin: 19px;
+      }
+
+      section {
+        border: 1px solid #6d0202;
         margin: 15px;
-        font-size: 18px;
-      }
-
-      main {
-        padding: 20px;
-      }
-
-      .comidas {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-      }
-
-      .card {
-        background: white;
-        border-radius: 10px;
-        padding: 15px;
+        padding: 11px;
         text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
 
-      .card img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 10px;
+      img {
+        width: 199px;
+        border-radius: 15px;
       }
 
-      .card h2 {
-        color: #ff6600;
+      footer {
+        background: #6d0202;
+        color: rgb(255, 74, 3);
+        text-align: center;
+        padding: 10px;
       }
     </style>
   </head>
 
   <body>
     <header>
-      <h1>MEU SITE sobre o que gosto</h1>
+      <h1>Comidas que eu gosto</h1>
     </header>
 
     <nav>
       <a href="index.html">Início</a>
-      <a href="#comidas">Comidas que gosto</a>
+      <a href="comida.html">Comidas</a>
     </nav>
 
-    <main>
-      <section id="comidas">
-        <h1>5 comidas que eu gosto 🍕🍔🍣</h1>
+    <section>
+      <h2>Pizza</h2>
+      <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" />
+    </section>
 
-        <div class="comidas">
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1513104890138-7c749659a591"
-              alt="Pizza"
-            />
-            <h2>Pizza</h2>
-          </div>
+    <section>
+      <h2>Hambúrguer</h2>
+      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" />
+    </section>
 
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
-              alt="Hambúrguer"
-            />
-            <h2>Hambúrguer</h2>
-          </div>
+    <section>
+      <h2>Sushi</h2>
+      <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c" />
+    </section>
 
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c"
-              alt="Sushi"
-            />
-            <h2>Sushi</h2>
-          </div>
+    <section>
+      <h2>Batata frita</h2>
+      <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f" />
+    </section>
 
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1604908176997-4316f74e4b2b"
-              alt="Lasanha"
-            />
-            <h2>Lasanha</h2>
-          </div>
-
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
-              alt="Salada"
-            />
-            <h2>Salada</h2>
-          </div>
-        </div>
-      </section>
-    </main>
+    <footer>
+      <p>Desenvolvido por: Luiz Miguel</p>
+    </footer>
   </body>
 </html>
